@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    <div class="bmicontainer">
-        <h2>BMI Calulator</h2>
-        <label for="weight">Weight (Kg): <input type="number" required></label>
-        <label for="height">Height (cm): <input type="number" required></label>
-        <button type="button" bmicalulate>Calculate</button>
-        <label for="output" output>BMI (Body Mass Index)<input type="text" readonly></label>
-    
+    <div class="bmicontent">
+        <div class="bmicontainer">
+            <h2>BMI Calulator</h2>
+            <label   label for="weight">Weight (Kg): <input type="number" required></label>
+            <label   label for="height">Height (cm): <input type="number" required></label>
+            <button type="button" bmicalulate>Calculate</button>
+       
+        </div>
+        <div class="bmivalues">
+            <label for="output" output>BMI (Body Mass Index)<input type="text" readonly></label>
+            <p>Underweight <18.5</p>
+            <p>Average weight 18.5 - 24.9</p>
+            <p>Overweight 25 - 29.9</p>
+            <p>Obese 30+</p>
+
+        </div>
     </div>
     
     <script src="./script/code.js"></script>
